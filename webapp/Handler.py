@@ -44,5 +44,5 @@ def rossmann_predicr():
     return df_response
     
 if __name__ == '__main__':
-    os.environ.get('PORT' , 5000)
-    app.run(hotst = '0.0.0.0', port  = port )
+    port = os.environ.get('PORT' , 5000)
+    app.run(host = '0.0.0.0', port  = port )
