@@ -7,3 +7,20 @@ A Rossmann é uma rede de drogarias que opera mais de 3.000 lojas em 7 países e
 
 ## 2. Pressupostos de Negócio
 Os dados foram extraidos da competição iniciada pela Rossmann no Kaggle, 
+
+ Note que todas as escolas estão fechadas em feriados e finais de semana
+
+Atributos    | Definição
+------------ | -------------
+|id          | Identificador único para cada dupla (Store, Date)|
+|Store       | Identificador único para a loja|
+|Sales       | Receita referente as vendas do dia |
+|Customers   | Número de clientes no dia|
+|Open        | Indicador se a loja estava aberta, 0 = fechada 1 = aberta|
+|StateHoliday |Indica um feriado estadial. Normalmente todas lojas, com poucas exeções, estão fechadas em feriados estaduais.  a = feriado, b = Feriado de Páscoa, c = Natal, 0 = Nenhum |
+|SchoolHoliday| Indicador se (Store, Date) foi afetado pelas férias de escolas|
+|StoreType   | Indica o modelo da loja: a, b, c, d|
+|Assortment  |Indica o nível de sortimento da loja: a = básico, b = extra, c = estendido |
+|CompetitionDistance |Distância em metros até a loja concorrente mais próxima|
+|CompetitionOpenSince[Month/Year] | Indica o ano e mês aproximados do momento em que o competidor mais próximo foi aberto|
+|Promo       | Indica se a loja está executando uma promoção no dia|
