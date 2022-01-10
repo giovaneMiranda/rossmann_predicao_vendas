@@ -23,4 +23,7 @@ Atributos    | Definição
 |Assortment  |Indica o nível de sortimento da loja: a = básico, b = extra, c = estendido |
 |CompetitionDistance |Distância em metros até a loja concorrente mais próxima|
 |CompetitionOpenSince[Month/Year] | Indica o ano e mês aproximados do momento em que o competidor mais próximo foi aberto|
-|Promo       | Indica se a loja está executando uma promoção no dia|
+|Promo       | Indica se a loja está executando|
+|Promo2       | Indica se a loja está executando uma promoção continua, 0 = loja não está participando, 1 = loja está participando | 
+|Promo2Since[Year/Week]       | Indica ano e semana quando a loja começou a participar da Promo2 |
+|PromoInterval     | Descreve os intervalos consecutivos Promo2 é iniciado, nomeando os meses em que a promoção é iniciada novamente. Por exemplo, "Fev, May,Aug,Nov" significa que cada rodada começa em fevereiro, maio, agosto, novembro de qualquer ano para aquela loja |
