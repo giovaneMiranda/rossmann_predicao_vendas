@@ -5,8 +5,18 @@ Este projeto tem fins acadêmicos.
 ## 1. Problema de Negócio
 A Rossmann é uma rede de drogarias que opera mais de 3.000 lojas em 7 países europeus. Após reuniões estratégicas de negócio com os gerentes, foi solicitado pelo CFO da empresa, uma previsão de vendas das próximas 6 semanas de cada loja. A causa raiz é o planejamentos das reformas das lojas, onde o orçamento esta atrelado a receita futura das lojas. 
 
-## 2. Pressupostos de Negócio
-Os dados foram extraidos da competição iniciada pela Rossmann no Kaggle, 
+## 2. Premissa de Negócio
+Os dados foram extraidos da competição iniciada pela Rossmann no Kaggle, porém é necessário assumir algumas premissas sobre o negócio.
+
+- **Distância da competição:** 
+  - A distância está expressada em metros, 
+  - Lojas com distância igual a 0 são consideradas lojas sem competição próxima, para evitar viés no algoritmo ML  foi assumido um valor fixo (200000.0 metros), superior ao maior valor no conjunto de dados.  
+
+- **Loja aberta:**
+  - Removido o conjunto de dados onde indicava lojas fechadas, pois possuem receita 0.  
+
+- **Sortimento:** 
+  - Existe uma hierarquia entre os tipos de sortimento. Desse modo, as lojas com sortimento tipo C devem oferecer o tipo A e B.
 
  Note que todas as escolas estão fechadas em feriados e finais de semana
 
