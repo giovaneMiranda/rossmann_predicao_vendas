@@ -17,8 +17,9 @@ Os dados foram extraidos da competição iniciada pela Rossmann no Kaggle, poré
 
 - **Sortimento:** 
   - Existe uma hierarquia entre os tipos de sortimento. Desse modo, as lojas com sortimento tipo C devem oferecer o tipo A e B.
-
- Note que todas as escolas estão fechadas em feriados e finais de semana
+  
+- **Feriados:** 
+  - Escolas estão fechadas em feriados e finais de semana
 
 Atributos    | Definição
 ------------ | -------------
@@ -37,3 +38,5 @@ Atributos    | Definição
 |Promo2       | Indica se a loja está executando uma promoção continua, 0 = loja não está participando, 1 = loja está participando | 
 |Promo2Since[Year/Week]       | Indica ano e semana quando a loja começou a participar da Promo2 |
 |PromoInterval     | Descreve os intervalos consecutivos Promo2 é iniciado, nomeando os meses em que a promoção é iniciada novamente. Por exemplo, "Fev, May,Aug,Nov" significa que cada rodada começa em fevereiro, maio, agosto, novembro de qualquer ano para aquela loja |
+
+## 3. Estratégia de Solução
