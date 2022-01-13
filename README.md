@@ -42,3 +42,9 @@ Atributos    | Definição
 |PromoInterval     | Descreve os intervalos consecutivos Promo2 é iniciado, nomeando os meses em que a promoção é iniciada novamente. Por exemplo, "Fev, May,Aug,Nov" significa que cada rodada começa em fevereiro, maio, agosto, novembro de qualquer ano para aquela loja |
 
 ## 3. Estratégia de Solução
+
+**01. Descrição dos Dados**
+
+O objetivo é usar métricas estatísticas e analise descritiva, como dimensão dos dados e tipos de atributos para identificar dados fora do escopo de negócio.  
+
+**02. Filtragem **
