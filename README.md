@@ -47,4 +47,13 @@ Atributos    | Definição
 
 O objetivo é usar métricas estatísticas e analise descritiva, como dimensão dos dados e tipos de atributos para identificar dados fora do escopo de negócio.  
 
-**02. Filtragem **
+**02. Feature Engineering**
+
+Tem como objetivo derivar as variáveis originais, obtendo variáveis que descrevem melhor o fenômeno que será modelado.
+
+**03. Filtragem**
+
+Filtrar linhas e selecionar colunas que não estejão relacionadas com informações para a modelagem e que não correspondam ao escopo de negócio. 
+
+**04. Análise exploratória de dados**
+
