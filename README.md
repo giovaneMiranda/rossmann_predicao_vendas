@@ -43,17 +43,13 @@ Atributos    | Definição
 
 ## 3. Estratégia de Solução
 
-**01. Descrição dos Dados**
+**01. Descrição dos Dados:** O objetivo é usar métricas estatísticas e analise descritiva, como dimensão dos dados e tipos de atributos para identificar dados fora do escopo de negócio.  
 
-O objetivo é usar métricas estatísticas e analise descritiva, como dimensão dos dados e tipos de atributos para identificar dados fora do escopo de negócio.  
+**02. Feature Engineering:** Tem como objetivo derivar as variáveis originais, obtendo variáveis que descrevem melhor o fenômeno que será modelado.
 
-**02. Feature Engineering**
+**03. Filtragem:** Filtrar linhas e selecionar colunas que não estejão relacionadas com informações para a modelagem e que não correspondam ao escopo de negócio. 
 
-Tem como objetivo derivar as variáveis originais, obtendo variáveis que descrevem melhor o fenômeno que será modelado.
+**04. Análise exploratória de dados:** Objetivo de explorar os dados ganhando experiência sobre o negócio, encontrar insights validando as hipóteses de negócio e entender melhor o impacto das variáveis no aprendizagem do modelo. 
 
-**03. Filtragem**
-
-Filtrar linhas e selecionar colunas que não estejão relacionadas com informações para a modelagem e que não correspondam ao escopo de negócio. 
-
-**04. Análise exploratória de dados**
+**05. Modelagem de Dados:** Preparar os dados para que o modelo 
 
