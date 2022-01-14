@@ -51,5 +51,11 @@ Atributos    | Definição
 
 **04. Análise exploratória de dados:** Objetivo de explorar os dados ganhando experiência sobre o negócio, encontrar insights validando as hipóteses de negócio e entender melhor o impacto das variáveis no aprendizagem do modelo. 
 
-**05. Modelagem de Dados:** Preparar os dados para que o modelo 
+**05. Modelagem de Dados:** Preparar os dados para que o modelo aprenda o comportamento do fenômeno.
+
+**06. Seleção de Variáveis:** Seleção dos atributos mais significativas, tornando o modelo simples e garantindo que aprenda o suficiente para generalizar todos os exemplos.
+
+**07. Modelagem de Machine Learning:** Implementar e treinar modelos de Machine Learning.
+
+**08. Hyperparameter Fine Tunning:** 
 
