@@ -57,5 +57,11 @@ Atributos    | Definição
 
 **07. Modelagem de Machine Learning:** Implementar e treinar modelos de Machine Learning.
 
-**08. Hyperparameter Fine Tunning:** 
+**08. Hyperparameter Fine Tunning:** Encontrar o conjunto de valores para os parâmetros do modelo selecionado na etapa anterior, com objetivo de maximizar o aprendizado. 
+
+**09. Avaliação do Modelo e Conversão do Modelo em Valores de Negócio:** Converter o desempenho do modelo machine learning em um resultado de negócios.
+
+**10. Implementar Modelo em Produção:** Publicar o modelo em ambientem nuvem para tornar os resultados acessíveis para qualquer consumidor seja pessoa ou serviços. 
+
+## 4. Top 3 Inseghts. 
 
