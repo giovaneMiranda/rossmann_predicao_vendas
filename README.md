@@ -80,3 +80,9 @@ Atributos    | Definição
 **Hipótese 03:** Lojas vendem 20% mais no segundo semestre do ano.
 
 **Falso** As lojas vendem aproximadamente 28% menos no segundo semestre.
+
+## 5. Modelo de Machine Learning. 
+
+Todos os algoritmos de Machine Learning foram treinados usando o *Cross Validation* nos dados de treinamento, calculando a performance real do modelo sobre a variabilidade dos dados, assim evitando pegar por acaso o melhor ou pior período. 
+
+
