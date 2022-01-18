@@ -63,5 +63,20 @@ Atributos    | Definição
 
 **10. Implementar Modelo em Produção:** Publicar o modelo em ambientem nuvem para tornar os resultados acessíveis para qualquer consumidor seja pessoa ou serviços. 
 
+
+
 ## 4. Top 3 Inseghts. 
 
+**Hipótese 01:** Lojas com competidores a menos de 1000m de distancia vendem 10% menos.
+
+**Falso** Como observado lojas ccom competidores a menos de 1000m vendem 50% a mais que as demais, quanto maior a distancia dos competidores menor são as vendas da loja.
+
+
+**Hipótese 02:** Lojas deveriam vender 5% a mais ao longo dos anos. 
+
+**Falso** Lojas vendem 5% a menos ao longo dos anos. Como observado de 2013 a 2014 teve um baixa de 5% nas vendas, a queda nas vendas em 2015 se da pelo não fechamento do ano, porem o mesmo da sinais de baixa nas vendas.
+
+
+**Hipótese 03:** Lojas vendem 20% mais no segundo semestre do ano.
+
+**Falso** As lojas vendem aproximadamente 28% menos no segundo semestre.
