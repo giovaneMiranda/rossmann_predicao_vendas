@@ -85,11 +85,15 @@ Atributos    | Definição
 
 Todos os algoritmos de Machine Learning foram treinados usando o *Cross Validation* nos dados de treinamento, calculando a performance real do modelo sobre a variabilidade dos dados, assim evitando pegar por acaso o melhor ou pior período. Os modelos escolhidos para comparação foram, modelo de Média, Regressão Linear, Regressão Linear Regularizada (Lasso),  Random Forest e XGBoost. 
 
+A seguir é apresentado as métricas de performance dos modelos usadas para comparação.  
+
 Modelo    | MAE | MAPE  | RMSE
 ------------ | ------------- |  ------------ |  ------------  
 |Regressão Linear |2110.5 +/- 348.59 | 0.3 +/- 0.01 | 3024.98 +/- 534.86
 |Regressão Linear Regularizada |2119.61 +/- 359.87 | 0.3 +/- 0.01 | 3046.17 +/- 541.66
 |Random Forest | 837.68 +/- 219.1 | 0.12 +/- 0.02 | 1256.08 +/- 320.36
 |XGBosst | 1030.28 +/- 167.19 | 0.14 +/- 0.02 | 1478.26 +/- 229.79
+
+Os melhores modelos foram o Random Forest e XGBoost, considerando que ambos tiveram um performance próxima o XGBoost foi considerado para implementação 
 
 
