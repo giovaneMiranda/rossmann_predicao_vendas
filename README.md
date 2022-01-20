@@ -85,7 +85,7 @@ Atributos    | Definição
 
 Todos os algoritmos de Machine Learning foram treinados usando o *Cross Validation* nos dados de treinamento, calculando a performance real do modelo sobre a variabilidade dos dados, assim evitando pegar por acaso o melhor ou pior período. Os modelos escolhidos para comparação foram, modelo de Média, Regressão Linear, Regressão Linear Regularizada (Lasso),  Random Forest e XGBoost. 
 
-A seguir é apresentado as métricas de performance dos modelos usadas para comparação.  
+O resumo abaixo mostra a comparação de métricas depois de executar o *Cross Validation*  com K-Fold com 5 splits no conjunto de dados completo.
 
 Modelo    | MAE | MAPE  | RMSE
 ------------ | ------------- |  ------------ |  ------------  
@@ -94,6 +94,17 @@ Modelo    | MAE | MAPE  | RMSE
 |Random Forest | 837.68 +/- 219.1 | 0.12 +/- 0.02 | 1256.08 +/- 320.36
 |XGBosst | 1030.28 +/- 167.19 | 0.14 +/- 0.02 | 1478.26 +/- 229.79
 
-Os melhores modelos foram o Random Forest e XGBoost, considerando que ambos tiveram um performance próxima o XGBoost foi considerado para implementação 
+Os melhores modelos foram o Random Forest e XGBoost, visto que ambos tiveram um performance próxima o XGBoost foi selecionado para implementação considerando que o Random Forest pode exigir um maior armazenamento. 
 
+## 6. Desenpenho do Modelo de Machine Learning. 
 
+Com seleção do algoritmo XGBoost foi realizado  o ajuste nos parâmetros do modelo, sofrendo um mudança significativa na sua performance. Os valores da configuração podem ser verificados no notebook. 
+
+Após a elaboração dos dados de treinamento seguindo o mesmo pipeline de dados utilizado para o treinamento dos modelos, podemos finalmente avaliar o modelo final, simulando o ambiente de produção, já que os dados são completamente novos.
+
+Modelo    | MAE | MAPE  | RMSE
+------------ | ------------- |  ------------ |  ------------  
+|XGBosst Tuned |774.99	 | 0.12	 |1119.64
+|XGBosst | 1030.28  | 0.14 | 1478.26 
+
+## 7. Resultados de negócios
