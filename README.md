@@ -65,7 +65,7 @@ Atributos    | Definição
 
 
 
-## 4. Top 3 Inseghts. 
+## 4. Top 3 Inseghts
 
 **Hipótese 01:** Lojas com competidores a menos de 1000m de distancia vendem 10% menos.
 
@@ -81,7 +81,7 @@ Atributos    | Definição
 
 **Falso** As lojas vendem aproximadamente 28% menos no segundo semestre.
 
-## 5. Modelo de Machine Learning. 
+## 5. Modelo de Machine Learning
 
 Todos os algoritmos de Machine Learning foram treinados usando o *Cross Validation* nos dados de treinamento, calculando a performance real do modelo sobre a variabilidade dos dados, assim evitando pegar por acaso o melhor ou pior período. Os modelos escolhidos para comparação foram, modelo de Média, Regressão Linear, Regressão Linear Regularizada (Lasso),  Random Forest e XGBoost.
 
@@ -96,7 +96,7 @@ Modelo    | MAE | MAPE  | RMSE
 
 Os melhores modelos foram o Random Forest e XGBoost, visto que ambos tiveram um performance próxima o XGBoost foi selecionado para implementação considerando que o Random Forest pode exigir um maior armazenamento. 
 
-## 6. Desenpenho do Modelo de Machine Learning. 
+## 6. Desenpenho do Modelo de Machine Learning
 
 Com seleção do algoritmo XGBoost foi realizado  o ajuste nos parâmetros do modelo, sofrendo um mudança significativa na sua performance. Os valores da configuração podem ser verificados no notebook. 
 
