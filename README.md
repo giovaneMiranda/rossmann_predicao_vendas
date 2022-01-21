@@ -30,7 +30,7 @@ Atributos    | Definição
 |Sales       | Receita referente as vendas do dia |
 |Customers   | Número de clientes no dia|
 |Open        | Indicador se a loja estava aberta, 0 = fechada 1 = aberta|
-|StateHoliday |Indica um feriado estadial. Normalmente todas lojas, com poucas exeções, estão fechadas em feriados estaduais.  a = feriado, b = Feriado de Páscoa, c = Natal, 0 = Nenhum |
+|StateHoliday |Indica um feriado estadual. Normalmente todas lojas, com poucas exeções, estão fechadas em feriados estaduais.  a = feriado, b = Feriado de Páscoa, c = Natal, 0 = Nenhum |
 |SchoolHoliday| Indicador se (Store, Date) foi afetado pelas férias de escolas|
 |StoreType   | Indica o modelo da loja: a, b, c, d|
 |Assortment  |Indica o nível de sortimento da loja: a = básico, b = extra, c = estendido |
@@ -83,7 +83,7 @@ Atributos    | Definição
 
 ## 5. Modelo de Machine Learning. 
 
-Todos os algoritmos de Machine Learning foram treinados usando o *Cross Validation* nos dados de treinamento, calculando a performance real do modelo sobre a variabilidade dos dados, assim evitando pegar por acaso o melhor ou pior período. Os modelos escolhidos para comparação foram, modelo de Média, Regressão Linear, Regressão Linear Regularizada (Lasso),  Random Forest e XGBoost. 
+Todos os algoritmos de Machine Learning foram treinados usando o *Cross Validation* nos dados de treinamento, calculando a performance real do modelo sobre a variabilidade dos dados, assim evitando pegar por acaso o melhor ou pior período. Os modelos escolhidos para comparação foram, modelo de Média, Regressão Linear, Regressão Linear Regularizada (Lasso),  Random Forest e XGBoost.
 
 O resumo abaixo mostra a comparação de métricas depois de executar o *Cross Validation*  com K-Fold com 5 splits no conjunto de dados completo.
 
@@ -108,3 +108,12 @@ Modelo    | MAE | MAPE  | RMSE
 |XGBosst | 1030.28  | 0.14 | 1478.26 
 
 ## 7. Resultados de negócios
+
+Recapitulando o problema de negócio. Foi solicitado pelo CFO da Rossmann uma previsão de vendas para as próximas 6 semanas. Aplincando o modelo podemos obter a receita para cada loja. A baixo é mostrado o somatório dos cenários.   
+
+Cenários    | Valor
+------------ | ------------- 
+|Predição| $282,240,096.00
+|Pior Ccenário | $250,485,125.08
+|Melhor Ccenário | $313,995,075.75
+
