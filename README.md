@@ -69,7 +69,7 @@ Atributos    | Definição
 
 **Hipótese 01:** Lojas com competidores a menos de 1000m de distancia vendem 10% menos.
 
-**Falso** Como observado lojas ccom competidores a menos de 1000m vendem 50% a mais que as demais, quanto maior a distancia dos competidores menor são as vendas da loja.
+**Falso** Como observado lojas com competidores a menos de 1000m vendem 50% a mais que as demais, quanto maior a distancia dos competidores menor são as vendas da loja.
 
 
 **Hipótese 02:** Lojas deveriam vender 5% a mais ao longo dos anos. 
