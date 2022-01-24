@@ -107,6 +107,8 @@ Modelo    | MAE | MAPE  | RMSE
 |XGBosst Tuned |774.99	 | 0.12	 |1119.64
 |XGBosst | 1030.28  | 0.14 | 1478.26 
 
+Abaixo é mostrado o Gráfico de Dispersão com as previsões. Podemos observar que possuímos uma concentração em torno de uma linha paralela ao eixo X (com MAPE 10%). No entanto, há pontos distantes, isso por que existem lojas para as quais as previsões não são tão precisas. 
+
 ## 7. Resultados de negócios
 
 Recapitulando o problema de negócio. Foi solicitado pelo CFO da Rossmann uma previsão de vendas para as próximas 6 semanas. Aplincando o modelo podemos obter a receita para cada loja. A baixo é mostrado o somatório dos cenários. 
@@ -116,6 +118,8 @@ Cenários    | Valor
 |Predição| $282,240,096.00
 |Pior Ccenário | $250,485,125.08
 |Melhor Ccenário | $313,995,075.75
+
+
 
 O modelo foi implementado no Heroku (https://rossmann-prediction-sale.herokuapp.com/rossmann/predict) como uma API, 
 
