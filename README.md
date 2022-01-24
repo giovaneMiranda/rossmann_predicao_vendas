@@ -109,13 +109,15 @@ Modelo    | MAE | MAPE  | RMSE
 
 ## 7. Resultados de negócios
 
-Recapitulando o problema de negócio. Foi solicitado pelo CFO da Rossmann uma previsão de vendas para as próximas 6 semanas. Aplincando o modelo podemos obter a receita para cada loja. A baixo é mostrado o somatório dos cenários.   
+Recapitulando o problema de negócio. Foi solicitado pelo CFO da Rossmann uma previsão de vendas para as próximas 6 semanas. Aplincando o modelo podemos obter a receita para cada loja. A baixo é mostrado o somatório dos cenários. 
 
 Cenários    | Valor
 ------------ | ------------- 
 |Predição| $282,240,096.00
 |Pior Ccenário | $250,485,125.08
 |Melhor Ccenário | $313,995,075.75
+
+O modelo foi implementado no Heroku (https://rossmann-prediction-sale.herokuapp.com/rossmann/predict) como uma API, 
 
 ## 8. Conclusão 
 
