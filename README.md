@@ -118,8 +118,8 @@ Recapitulando o problema de negócio. Foi solicitado pelo CFO da Rossmann uma pr
 Cenários    | Valor
 ------------ | ------------- 
 |Predição| $282,240,096.00
-|Pior Ccenário | $250,485,125.08
-|Melhor Ccenário | $313,995,075.75
+|Pior Cenário | $250,485,125.08
+|Melhor Cenário | $313,995,075.75
 
 O modelo foi implementado no Heroku (https://rossmann-prediction-sale.herokuapp.com/rossmann/predict) como uma API, desse modo qualquer desse modo qualquer usuário tenha acesso as predições. Como exemplo abaixo é apresentado um bot criado para o Aplicativo Telegram no qual apresenta a previsção dado um requisição. 
 
