@@ -121,7 +121,7 @@ Cenários    | Valor
 |Pior Cenário | $250,485,125.08
 |Melhor Cenário | $313,995,075.75
 
-O modelo foi implementado no Heroku (https://rossmann-prediction-sale.herokuapp.com/rossmann/predict) como uma API, desse modo qualquer desse modo qualquer usuário tenha acesso as predições. Como exemplo abaixo é apresentado um bot criado para o Aplicativo Telegram no qual apresenta a previsção dado um requisição. 
+O modelo foi implementado no Heroku (https://rossmann-prediction-sale.herokuapp.com/rossmann/predict) como uma API, desse modo é possivel realizar a requisição da predição de  qualquer Endpoint. Como exemplo abaixo é apresentado um bot criado para o Aplicativo Telegram no qual apresenta a previsção dado um requisição. 
 
 
 ![](img/telegram_bot.jpeg)
