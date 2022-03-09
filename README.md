@@ -47,7 +47,7 @@ Atributos    | Definição
 
 **02. Feature Engineering:** Tem como objetivo derivar as variáveis originais, obtendo variáveis que descrevem melhor o fenômeno que será modelado.
 
-**03. Filtragem:** Filtrar linhas e selecionar colunas que não estejão relacionadas com informações para a modelagem e que não correspondam ao escopo de negócio. 
+**03. Filtragem:** Filtrar linhas e selecionar colunas que não estejam relacionadas com informações para a modelagem e que não correspondam ao escopo de negócio. 
 
 **04. Análise exploratória de dados:** Objetivo de explorar os dados ganhando experiência sobre o negócio, encontrar insights validando as hipóteses de negócio e entender melhor o impacto das variáveis no aprendizagem do modelo. 
 
@@ -67,14 +67,14 @@ Atributos    | Definição
 
 ## 4. Top 3 Inseghts
 
-**Hipótese 01:** Lojas com competidores a menos de 1000m de distancia vendem 10% menos.
+**Hipótese 01:** Lojas com competidores a menos de 1000m de distância vendem 10% menos.
 
-**Falso** Como observado lojas com competidores a menos de 1000m vendem 50% a mais que as demais, quanto maior a distancia dos competidores menor são as vendas da loja.
+**Falso** Como observado, lojas com competidores a menos de 1000m vendem 50% a mais que as demais, quanto maior a distancia dos competidores menor são as vendas da loja.
 
 
 **Hipótese 02:** Lojas deveriam vender 5% a mais ao longo dos anos. 
 
-**Falso** Lojas vendem 5% a menos ao longo dos anos. Como observado de 2013 a 2014 teve um baixa de 5% nas vendas, a queda nas vendas em 2015 se da pelo não fechamento do ano, porem o mesmo da sinais de baixa nas vendas.
+**Falso** Lojas vendem 5% a menos ao longo dos anos. Como observado de 2013 a 2014 teve uma baixa de 5% nas vendas, a queda nas vendas em 2015 se dá pelo não fechamento do ano, porém o mesmo dá sinais de baixa nas vendas.
 
 
 **Hipótese 03:** Lojas vendem 20% mais no segundo semestre do ano.
@@ -98,7 +98,7 @@ Os melhores modelos foram o Random Forest e XGBoost, visto que ambos tiveram um 
 
 ## 6. Desenpenho do Modelo de Machine Learning
 
-Com seleção do algoritmo XGBoost foi realizado  o ajuste nos parâmetros do modelo, sofrendo um mudança significativa na sua performance. Os valores da configuração podem ser verificados no notebook. 
+Com seleção do algoritmo XGBoost foi realizado o ajuste nos parâmetros do modelo, sofrendo uma mudança significativa na sua performance. Os valores da configuração podem ser verificados no notebook. 
 
 Após a elaboração dos dados de treinamento seguindo o mesmo pipeline de dados utilizado para o treinamento dos modelos, podemos finalmente avaliar o modelo final, simulando o ambiente de produção, já que os dados são completamente novos.
 
@@ -113,7 +113,7 @@ Abaixo é mostrado o Gráfico de Dispersão com as previsões. Podemos observar 
 
 ## 7. Resultados de negócios
 
-Recapitulando o problema de negócio. Foi solicitado pelo CFO da Rossmann uma previsão de vendas para as próximas 6 semanas. Aplincando o modelo podemos obter a receita para cada loja. A baixo é mostrado o somatório dos cenários. 
+Recapitulando o problema de negócio. Foi solicitado pelo CFO da Rossmann uma previsão de vendas para as próximas 6 semanas. Aplicando o modelo podemos obter a receita para cada loja. A baixo é mostrado o somatório dos cenários. 
 
 Cenários    | Valor
 ------------ | ------------- 
@@ -121,14 +121,14 @@ Cenários    | Valor
 |Pior Cenário | $250,485,125.08
 |Melhor Cenário | $313,995,075.75
 
-O modelo foi implementado no Heroku (https://rossmann-prediction-sale.herokuapp.com/rossmann/predict) como uma API, desse modo é possivel realizar a requisição da predição de  qualquer Endpoint. Como exemplo abaixo é apresentado um bot criado para o Aplicativo Telegram no qual apresenta a previsção dado um requisição. 
+O modelo foi implementado no Heroku (https://rossmann-prediction-sale.herokuapp.com/rossmann/predict) como uma API, desse modo é possível realizar a requisição da previsão de qualquer Endpoint. Como exemplo abaixo é apresentado um bot criado para o Aplicativo Telegram no qual apresenta a previsção dado um requisição. 
 
 
 ![](img/telegram_bot.jpeg)
 
 
 ## 8. Próximos Passos.
-Abaixo estão listados passos que serão realizados no proximo ciclo do CRISP: 
+Abaixo estão listados passos que serão realizados no próximo ciclo do CRISP: 
 - Descobrir fatos que podem estar faltando em nossa análise, a fim de enriquecer os dados que temos e melhorar o desempenho do modelo.
 - Realizar novamente o Feature Engineering com os novos fatos descobertos. 
 - Construir um pipeline de retreinamento de modelos.
