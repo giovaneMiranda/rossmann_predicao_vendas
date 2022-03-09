@@ -30,7 +30,7 @@ Atributos    | Definição
 |Sales       | Receita referente as vendas do dia |
 |Customers   | Número de clientes no dia|
 |Open        | Indicador se a loja estava aberta, 0 = fechada 1 = aberta|
-|StateHoliday |Indica um feriado estadual. Normalmente todas lojas, com poucas exeções, estão fechadas em feriados estaduais.  a = feriado, b = Feriado de Páscoa, c = Natal, 0 = Nenhum |
+|StateHoliday |Indica um feriado estadual. Normalmente todas lojas, com poucas exceções, estão fechadas em feriados estaduais.  a = feriado, b = Feriado de Páscoa, c = Natal, 0 = Nenhum |
 |SchoolHoliday| Indicador se (Store, Date) foi afetado pelas férias de escolas|
 |StoreType   | Indica o modelo da loja: a, b, c, d|
 |Assortment  |Indica o nível de sortimento da loja: a = básico, b = extra, c = estendido |
@@ -39,7 +39,7 @@ Atributos    | Definição
 |Promo       | Indica se a loja está executando|
 |Promo2       | Indica se a loja está executando uma promoção continua, 0 = loja não está participando, 1 = loja está participando | 
 |Promo2Since[Year/Week]       | Indica ano e semana quando a loja começou a participar da Promo2 |
-|PromoInterval     | Descreve os intervalos consecutivos Promo2 é iniciado, nomeando os meses em que a promoção é iniciada novamente. Por exemplo, "Fev, May,Aug,Nov" significa que cada rodada começa em fevereiro, maio, agosto, novembro de qualquer ano para aquela loja |
+|PromoInterval     | Descreve os intervalos consecutivos Promo2 é iniciado, nomeando os meses em que a promoção é iniciada novamente. Por exemplo, "Fev, May, Aug, Nov" significa que cada rodada começa em fevereiro, maio, agosto, novembro de qualquer ano para aquela loja |
 
 ## 3. Estratégia de Solução
 
